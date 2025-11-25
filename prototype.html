@@ -24,7 +24,7 @@ let correct = 0;
 let wrong = 0
 
 function runQuiz() {
-  let total = parseInt(prompt("Combien de questions veux-tu ?"));
+  let total = parseInt(promp("Combien de questions veux-tu ?"));
 
   for (let i = 1; i <= total; i++) {
     let item = questions[Math.floor(Math.random() * questions.length)];
